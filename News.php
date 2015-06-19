@@ -134,6 +134,6 @@ class News extends CI_Controller
         $this->session->sess_destroy();
         
         header('Location: ../login');
-        print_r($acc_query);
+       // print_r($acc_query);
     }
 }

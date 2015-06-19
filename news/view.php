@@ -4,7 +4,7 @@ print_r($news_item);
 echo "<br><br>".$_SESSION['user']."<br>";
 
 //foreach ($news_item as $news){
-echo '<h2>' . $news_item['title'] . '</h2>';
+echo '<h1>' . $news_item['title'] . '</h1>';
 echo $news_item['text'];
 
 //}
