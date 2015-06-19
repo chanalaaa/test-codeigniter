@@ -14,10 +14,10 @@ class News extends CI_Controller
         $data['title'] = 'News archive';
         print_r($data['news']);
         
-        //$this->load->view('templates/header', $data);
+        
         $this->load->view('news/index', $data);
         
-        //$this->load->view('templates/footer');
+       
         
         
     }
