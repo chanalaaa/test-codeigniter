@@ -132,7 +132,8 @@ class News extends CI_Controller
         
         $this->session->unset_tempdata('user');
         $this->session->sess_destroy();
-        print_r($acc_query);
+        
         header('Location: ../login');
+        print_r($acc_query);
     }
 }
