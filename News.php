@@ -14,7 +14,7 @@ class News extends CI_Controller
         $data['title'] = 'News archive';
         print_r($data['news']);
         
-        
+        //a
         $this->load->view('news/index', $data);
         
        
